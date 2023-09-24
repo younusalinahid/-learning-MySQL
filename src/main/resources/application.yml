@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3306/learning-mysql?createDatabaseIfNotExist=true&&serverTimezone=UTC
+    username: root
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update
+  servlet:
+    multipart:
+      max-file-size: 15MB
+      max-request-size: 15MB
